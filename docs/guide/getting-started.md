@@ -77,7 +77,7 @@ Here is the basic example in action
   <span>{{ errors.first('email') }}</span>
 </div>
 
-[More Examples](/examples/)
+[More Examples](/demo/)
 
 ::: warning
   Client-side validation is never a substitute for server-side validation. Make sure to validate any input from the user on your backend as well.

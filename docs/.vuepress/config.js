@@ -102,6 +102,7 @@ module.exports = {
           { text: 'Config', link: '/configuration' },
           { text: 'Concepts', link: '/concepts/' },
           { text: 'Examples', link: '/examples/' },
+          { text: 'Demo', link: '/demo/' },
           { text: 'API', link: '/api/' }
         ],
         sidebar: {

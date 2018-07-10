@@ -91,7 +91,7 @@ Validator.localize('ar');
 
 You will get a warning if you set the locale to one that has not been merged in the dictionary yet. Any messages generated will fallback to English.
 
-A working example can be found [here](/examples/locale.md).
+A working example can be found [here](/demo/locale.md).
 
 ## Localized Files
 

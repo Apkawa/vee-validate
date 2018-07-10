@@ -3,6 +3,8 @@
 # abort on errors
 set -e
 
+REPOSITORY=$(git config --get remote.origin.url)
+
 # build
 npm run docs:build
 
@@ -13,5 +15,5 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:baianat/vee-validate.git master:gh-pages
+git push -f ${REPOSITORY} master:gh-pages
 cd -
