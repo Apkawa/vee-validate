@@ -15,6 +15,7 @@
 <script>
   export default {
     name: 'Layout',
+    inject: ['$validator'],
     props: ['name']
   }
 </script>

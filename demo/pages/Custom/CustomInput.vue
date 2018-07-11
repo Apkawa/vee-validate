@@ -25,6 +25,7 @@
   export default {
     name: 'custom-input',
     components: {Layout},
+    inject: ['$validator'],
     props: {
       name: {
         type: String,

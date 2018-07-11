@@ -23,6 +23,7 @@
   export default {
     name: 'custom',
     components: {'custom-input': CustomInput},
+    inject: ['$validator'],
     data () {
       return {
         model: {}
